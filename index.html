@@ -178,7 +178,7 @@ nav a:hover { color: var(--fg); background: var(--bg); }
   transition: transform .25s, box-shadow .25s;
   position: relative; z-index: 1;
 }
-.hc img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hc img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
 .hc:nth-child(1) { transform: rotate(-2.8deg); }
 .hc:nth-child(2) { transform: rotate(2deg) translateY(16px); }
 .hc:nth-child(3) { transform: rotate(1.6deg) translateY(-10px); }
@@ -235,7 +235,7 @@ nav a:hover { color: var(--fg); background: var(--bg); }
 .book-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
 .cover-wrap { aspect-ratio: 2/3; overflow: hidden; flex-shrink: 0; }
 .cover-wrap img {
-  width: 100%; height: 100%; object-fit: cover; display: block;
+  width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;
   transition: transform .3s ease;
 }
 .book-card:hover .cover-wrap img { transform: scale(1.04); }
@@ -262,7 +262,7 @@ nav a:hover { color: var(--fg); background: var(--bg); }
 .schools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
 .school-covers { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
 .school-cover { aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-md); }
-.school-cover img { width: 100%; height: 100%; object-fit: cover; }
+.school-cover img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 
 .section-eyebrow {
   font-size: 10px; font-weight: 800; letter-spacing: .12em;
